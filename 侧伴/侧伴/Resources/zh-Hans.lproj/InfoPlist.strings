@@ -1,0 +1,2 @@
+"NSMicrophoneUsageDescription" = "用于快捷录音，将你的想法保存在本机或 Obsidian 仓库。";
+"NSSpeechRecognitionUsageDescription" = "将录音转换为文字并添加到你的笔记。";

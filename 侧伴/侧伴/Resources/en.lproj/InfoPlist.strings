@@ -1,0 +1,2 @@
+"NSMicrophoneUsageDescription" = "Record audio and save your ideas locally or to your Obsidian vault.";
+"NSSpeechRecognitionUsageDescription" = "Convert recordings to text and add the transcript to your notes.";

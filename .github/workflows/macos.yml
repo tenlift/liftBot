@@ -1,0 +1,13 @@
+name: macOS
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Workspace regression
+        run: bash Tests/run-workspace-checks.sh
+      - name: Build application
+        run: xcodebuild -project '侧伴/侧伴.xcodeproj' -scheme '侧伴' -configuration Debug -destination 'platform=macOS' CODE_SIGNING_ALLOWED=NO build
