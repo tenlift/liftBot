@@ -2,7 +2,7 @@
 
 一个使用 SwiftUI + AppKit 构建的原生 macOS 侧边工作台，集合笔记、待办、专注和录音。
 
-采用本地 Swift Package 模块化架构，详见 [架构说明](Docs/ARCHITECTURE.md) 和 [贡献指南](CONTRIBUTING.md)。英文品牌名与开源许可证尚待确定。
+采用本地 Swift Package 模块化架构，详见 [架构说明](Docs/ARCHITECTURE.md) 和 [贡献指南](CONTRIBUTING.md)。项目采用 MIT 许可证，详见仓库根目录 LICENSE。
 
 ## 运行
 
@@ -71,7 +71,7 @@
 - Obsidian 目前使用手动 Markdown 快照导出，不含自动同步或双向同步。录音记录支持单独导出音频及引用笔记。
 - 番茄钟界面暂不跨应用重启恢复倒计时；已交给系统安排的到时通知仍保留。
 - 尚未完成运行时视觉验收和真实仓库授权回归；已通过编译检查。
-- 中文产品名已确定为「侧伴」，已增加贡献约定；公开开源前仍需确定英文名、正式 Bundle ID 和许可证。
+- 中文产品名已确定为「侧伴」，已增加贡献约定；许可证已采用 MIT；品牌与 Bundle ID 的历史记录以当前工程和 README 为准。
 
 ## 回归检查
 

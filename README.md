@@ -117,4 +117,4 @@ RUN_NATIVE_SHORTCUT_CHECKS=1 bash Tests/run-workspace-checks.sh
 
 ## 许可证
 
-当前尚未附带开源许可证。公开源码不等于授予使用、修改或再分发许可；项目维护者应在正式开源发布前添加 `LICENSE`，并同步更新本节与贡献指南。
+本项目采用 [MIT License](LICENSE)，允许使用、修改、分发和商业使用。分发软件或其重要部分时，需保留版权声明与许可证全文。软件按原样提供，不附带担保。

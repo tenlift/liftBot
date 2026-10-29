@@ -14,4 +14,4 @@ xcodebuild -project '侧伴/侧伴.xcodeproj' -scheme '侧伴' -configuration De
 
 修改前阅读 `Docs/ARCHITECTURE.md`。界面逻辑按 Features 分组，系统能力放 Platform；SidebarCore 不依赖应用层。修改持久化模型需验证旧数据兼容；涉及权限或系统 UI 的改动在 PR 中注明实机验证结果。
 
-PR 说明问题、最终行为和验证结果。公开发布前仍需项目所有者确定许可证；当前没有通过本文授予开源使用许可。
+PR 说明问题、最终行为和验证结果。提交贡献即表示你同意以本项目的 [MIT License](LICENSE) 授权你的贡献，并确认有权提交相关内容。
